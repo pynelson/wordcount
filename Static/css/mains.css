@@ -1,0 +1,97 @@
+body{
+background-color:indigo;
+color:#FFF
+
+}
+
+.container{
+
+width:80%;``;
+height: 60%;
+margin: auto;
+padding: 10px;
+
+
+}
+
+.container h1{
+text-align: center;
+font-family: serif;
+font-weight: bold;
+}
+
+.container h3{
+text-align: justify;
+text-decoration: overline;
+text-decoration-style: solid;
+text-emphasis-color: red;
+font-size: 21px;
+}
+
+.name{
+color:pink;
+}
+h1{
+text-align: center;
+font-family:  fantasy;
+padding: 20px;
+}
+textarea{
+text-align: center;
+padding: 30px;
+width: 100%;
+border-image-repeat: round;
+border-width: 10px;
+border-color: #FF00FF;
+background-color:#;
+font-size: 20px;
+
+}
+
+.container span{
+width: 10%;
+height: 5%;
+padding: 1px;
+margin-left: 30%;
+background-color: #FFF;
+background-position: right;
+position:  absolute;
+}
+
+.container input{
+font-family: cursive;
+font-weight: bolder;
+border-color: pink;
+font-size: 20px;
+padding: 20px;
+max-height:100px;
+max-width: 120px;
+border-width: 10px;
+cursor:  grab;
+}
+
+label{
+padding: 1px;
+font-weight: bold;
+}
+
+}
+
+.abstract{
+width: 50%;
+height: 30%;
+font-size: 30px;
+margin: auto;
+text-align: center;
+}
+
+
+.pages header h3 a{
+width: 10%;
+height:10%;
+color:#fff;
+margin: auto;
+padding: 1%;
+float: right;
+
+}

@@ -1,0 +1,26 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/mains.css'%}">
+<div class="pages">
+<header>
+  <h3> <a href="{% url 'about'%}">About us</a> </h3>  <h3> <a href="{% url 'contact'%}">Contact us</a> </h3>
+
+</header>
+
+</div>
+
+<h1>Wordlist page</h1>
+<div class="container">
+
+  <form class="" action="{% url 'count'%}" >
+    {%csrf_token%}
+<label>ENTER YOUR WORLD TO BE COUNT<textarea name="fulltext" rows="5" cols="20"> </textarea></label><br><br>
+<input type="submit" name="" value="Count">
+
+  </form>
+</div>
+
+<div class="abstract">
+This webpage provide you access to word counting according to the dictionary occurances. This wounderful application is build using django framework with python.<br>
+which make the work  so supper interest with supper backend support.<br><pre><b>python is one of my mosting interesting programing lanuage</b></pre>
+thanks to God for understanding python web development
+</div>

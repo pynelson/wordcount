@@ -1,0 +1,12 @@
+{% load static %}<link rel="stylesheet" href="{% static 'css/mains.css'%}">
+<div class="container">
+<h1> <a href="{% url 'index' %}"><span>Start</<span></span></a> </h1>
+  <h1>The worl list contain <strong>{{count}} words</strong></h1>
+
+<h1>Full words </h1>
+  <h2>{{fulltext}}</h2>
+
+<h1>Word count:</h1>
+   <h3>{{worddictionary}}</h3>
+<p>Total word count is : {{count}}</p>
+</div>
